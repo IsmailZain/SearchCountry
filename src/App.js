@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import Table from "./table.jsx"
 import './App.css';
 import Button from '@material-ui/core/Button';
@@ -8,6 +8,9 @@ const axios = require('axios');
 function App() {
   const [field, setfield] = useState("")
   const [content,setContent] = useState([])
+  useEffect(() => {
+    document.title = "Country Search"
+ }, []);
   
  
 
