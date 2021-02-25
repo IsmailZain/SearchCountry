@@ -1,8 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family:'Rubik', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +9,61 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2e1e0f ;
+  text-align: center;
+}
+.main{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.search{
+  margin-top: 20px;
+  padding: 12px 20px;
+  text-align: center;
+  font-weight: 500;
+  outline: none;
+}
+.searchbtn {
+  color: #2e1e0f !important;
+  background-color:#e6750d !important ;
+  margin-top: 10px !important;
+}
+.flag {
+  /* margin : 20px auto; */
+  /* width: 10%; */
+  width: 22px;
+}
+.countries{
+  color:#e6750d ;
+}
+table{
+  border: 2px solid #e6750d ;
+  margin-top: 20px;
+}
+
+hr{
+  width: 100%;
+}
+
+tr th{
+  border-bottom: 3px solid #e6750d ;
+}
+.sortUtil{
+  /* margin-top: 10px; */
+  color:#e6750d ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+h4{
+  color:#e6750d ;
 }

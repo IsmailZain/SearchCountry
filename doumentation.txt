@@ -1,0 +1,3 @@
+Just type the valid country name in the search box.
+If valid it will append the country in the show List below.
+Use the sort options provided to sort the list of countres in required order.
