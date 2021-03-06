@@ -11,7 +11,7 @@ const Row = ({el}) => {
             <td className = "hide3">{el.languages.length}</td>
             <td className = "hide" >{el.region}</td>
             <td className = "hide1">{el.area}</td>
-            <td><img className="flag" src={el.flag}></img></td>
+            <td><img alt = "" className="flag" src={el.flag}></img></td>
         </tr>
     )
 }
