@@ -105,10 +105,10 @@ function App() {
         <h4 >Sort By</h4>
         <div className = "sortUtil">
          <div>Population<input id = "pop"  onClick = {sortCallback} type="radio" name = "sortBy" ></input></div>
-         <div>Name<input id = "nam" onClick = {sortCallback} type="radio" name = "sortBy" ></input></div>
-         <div>Languages<input id = "lan"  onClick = {sortCallback} type="radio" name = "sortBy" ></input></div>
-         <div>Num Code<input id = "numcode"  onClick = {sortCallback} type="radio" name = "sortBy" ></input></div>
-         <div>Area num<input id = "ara" onClick = {sortCallback} type="radio" name = "sortBy" ></input></div>
+         <div className = "hide4">Name<input id = "nam" onClick = {sortCallback} type="radio" name = "sortBy" ></input></div>
+         <div >Languages<input id = "lan"  onClick = {sortCallback} type="radio" name = "sortBy" ></input></div>
+         <div className = "hide1" >Num Code<input id = "numcode"  onClick = {sortCallback} type="radio" name = "sortBy" ></input></div>
+         <div className = "hide3">Area num<input id = "ara" onClick = {sortCallback} type="radio" name = "sortBy" ></input></div>
         
         </div>
          

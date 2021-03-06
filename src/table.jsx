@@ -9,13 +9,13 @@ const Table = ({content}) => {
            <tr>
               
                <th>Name</th>
-               <th>Native Name</th>
-               <th>Capital</th>
+               <th className = "hide4">Native Name</th>
+               <th className = "hide">Capital</th>
                <th>Numberic Code</th>
-               <th>Population</th>
-               <th>Languages Spoken</th>
-               <th>Region</th>
-               <th>Area</th>
+               <th className = "hide3">Population</th>
+               <th className = "hide3">Languages Spoken</th>
+               <th className = "hide">Region</th>
+               <th className = "hide1">Area</th>
                <th>Flag</th>
            </tr>
            </thead>

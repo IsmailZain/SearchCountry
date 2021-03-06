@@ -4,13 +4,13 @@ const Row = ({el}) => {
     return (
         <tr>
             <td>{el.name}</td>
-            <td>{el.nativeName}</td>
-            <td>{el.capital}</td>
+            <td className = "hide4">{el.nativeName}</td>
+            <td className = "hide" >{el.capital}</td>
             <td>{el.numericCode}</td>
-            <td>{el.population}</td>
-            <td>{el.languages.length}</td>
-            <td>{el.region}</td>
-            <td>{el.area}</td>
+            <td className = "hide3">{el.population}</td>
+            <td className = "hide3">{el.languages.length}</td>
+            <td className = "hide" >{el.region}</td>
+            <td className = "hide1">{el.area}</td>
             <td><img className="flag" src={el.flag}></img></td>
         </tr>
     )

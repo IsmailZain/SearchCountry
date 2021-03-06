@@ -67,3 +67,24 @@ tr th{
 h4{
   color:#e6750d ;
 }
+
+@media only screen and (max-width: 1244px) {
+  .hide {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1015px) {
+  .hide1 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1015px) {
+  .hide3 {
+    display: none;
+  }
+}
+@media only screen and (max-width:526px) {
+  .hide4 {
+    display: none;
+  }
+}
